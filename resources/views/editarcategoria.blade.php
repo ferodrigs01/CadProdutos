@@ -11,7 +11,7 @@
                 <input type="text" name="nomeCategoria" id="nomeCategoria" class="form-control" value="{{ $cat->nome }}">
                 </div>
                 <button type="submit" class="btn btn-primary btn-sm">Salvar</button>
-                <button type="reset" class="btn btn-danger btn-sm">Cancelar</button>
+                <a href="/categorias" class="btn btn-danger btn-sm">Cancelar</a>
             </form>
         </div>
     </div>
